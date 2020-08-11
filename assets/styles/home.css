@@ -1,0 +1,46 @@
+.mk-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10rem;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.mk-frame {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  border-top: 4px solid #18AD7A;
+  border-right: 4px solid #18AD7A;
+}
+
+.mk-content,
+.mk-avatar {
+  flex: 1;
+}
+
+.mk-content__title {
+  margin: 0;
+  font-size: xxx-large;
+  margin-bottom: 0.5rem;
+}
+
+.mk-content__caption {
+  margin: 0;
+  color: #8f8f8f;
+  font-size: x-large;
+  line-height: 1.7rem;
+}
+
+.mk-avatar {
+  text-align: center;
+}
+
+.mk-avatar img {
+  max-width: 20rem;
+  border-radius: 100%;
+  /* box-shadow: 0 0.5rem 6rem #e4ff0073; */
+}
