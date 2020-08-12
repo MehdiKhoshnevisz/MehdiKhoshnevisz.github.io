@@ -73,7 +73,12 @@
 @media screen and (max-width: 992px) {
   .mk-main {
     display: block;
-    padding: 2rem;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+  .mk-content__links {
+    justify-content: center;
   }
 
   .mk-content__title {
@@ -81,7 +86,7 @@
   }
 
   .mk-avatar {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .mk-avatar img {
